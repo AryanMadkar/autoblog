@@ -10,7 +10,8 @@ from fastapi.middleware.cors import CORSMiddleware
 settings = get_settings()
 origins = [
     "http://localhost:5173",  # your frontend
-    "http://127.0.0.1:5173",  # sometimes browsers resolve to 127.0.0.1
+    "http://127.0.0.1:5173",
+    "https://autoblog-1-tyoa.onrender.com",  # sometimes browsers resolve to 127.0.0.1
 ]
 
 
