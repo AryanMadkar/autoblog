@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pymongo
+python-dotenv
+groq
+langgraph
+langchain-core
+apscheduler
+httpx
+pydantic
